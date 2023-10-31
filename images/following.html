@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="../Twitch-Clone/images/icon1.png" rel="icon"/>
+    <title>Twitch</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <a href="index.html" class="header__link"><i class="fab fa-twitch fa-2x"></i></a>
+        <a href="following.html" class="header__link"><span class="header__title">Seguindo</span></a>
+        <a href="explore.html" class="header__link"><span class="header__title">Procurar</span></a>
+        <a href="esports.html" class="header__link"><span class="header__title">Canais Favoritos</span></a>
+        <a href="music.html" class="header__link"><span class="header__title">Recomendados</span></a>
+        <a href="" class="header__link"><i class="fas fa-ellipsis-h"></i></a>
+      </div>
+      <div class="header__column">
+        <span class="header__search-bar">
+          <input type="text" class="header__search-text" placeholder="Buscar" />
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-inbox header__btn"></i>
+        <div class="bell-box">
+          <i class="far fa-bell header__btn"></i>
+          <div class="alarm-notice">3</div>
+        </div>
+       <i class="far fa-comment-alt header__btn"></i>
+        <span class="header__btn buy-btn"><i class="far fa-gem"></i>
+        <span class="header__btn-title">Bits</span></span>
+        <div class="user__profile-box">
+        <i class="fas fa-user-circle fa-2x user__profile"></i>
+        <div class="user__online-dot"></div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-video"></i>
+      <img src="images/user1.png" class="nav__user" />
+      <img src="images/user2.png" class="nav__user" />
+      <img src="images/user3.png" class="nav__user" />
+      <img src="images/user4.png" class="nav__user" />
+      <i class="fas fa-user-friends"></i>
+    </nav>
+    <main class="main">
+      <div class="screen">
+        <div class="screen__title">Categorias</div>
+        <div class="screen__nav">
+          <ul class="screen__nav-list">
+            <li class="screen__nav-title">Ao Vivo</li>
+            <li class="screen__nav-title">Counter Strike 2</li>
+            <li class="screen__nav-title">Call Of Duty Modern Warfare III</li>
+            <li class="screen__nav-title">God Of War Ragnarok</li>
+            <li class="screen__nav-title">Valorant</li>
+            <li class="screen__nav-title">Só na Conversa</li>
+          </ul>
+        </div>
+        <div class="screen__section">
+          <div class="screen__section-title">Ao Vivo</div>
+          <ul class="screen__section-list section">
+            <li class="section__icon-box">
+              <i class="fas fa-heart"></i>
+              <i class="far fa-heart overlay"></i>
+              <div class="icon-box__title">Aproveitou o canal?</div>
+              <span class="icon-box__description">Por favor, siga!"</span>
+            </li>
+            <li class="section__icon-box">
+              <i class="fas fa-bell"></i>
+              <i class="far fa-bell overlay"></i>
+              <div class="icon-box__title">Receber notificações.</div>
+              <span class="icon-box__description">Avisaremos quando a transmissão começar.</span>
+            </li>
+            <li class="section__icon-box">
+              <i class="fas fa-video"></i>
+              <i class="fas fa-video overlay"></i>
+              <div class="icon-box__title">Assistir</div>
+              <span class="icon-box__description">Assista à transmissão ao vivo agora mesmo.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="screen__channels">
+          <div class="screen__channels__title">Canais Recomendados</div>
+          <ul class="screen__channels-list">
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen1.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">AO VIVO</span>
+                <span class="channel__screen-number">Viewers 49,893</span>
+              </div>
+
+              <div class="channel__info">
+                <div class="channel__column">
+                  <img src="images/user1.png" class="channel__user" />
+                </div>
+                <div class="channel__column">
+                  <div class="channel__row">
+                    <div class="channel__descript">
+                      <div class="channel__title">Gaules</div>
+                      <div class="channel__name">Fnatic vs OG Roobet Cup 2023</div>
+                      <div class="channel__status">Counter-Strike 2</div>
+                    </div>
+                    <div class="channel__more-btn">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <div class="channel__row">
+                    <div class="channel__tag">
+                      <span class="tag__name">Português</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen3.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">AO VIVO</span>
+                <span class="channel__screen-number">Viewers 31,912</span>
+              </div>
+
+              <div class="channel__info">
+                <div class="channel__column">
+                  <img src="images/user3.png" class="channel__user" />
+                </div>
+                <div class="channel__column">
+                  <div class="channel__row">
+                    <div class="channel__descript">
+                      <div class="channel__title">M4deN</div>
+                      <div class="channel__name">Up Passe de Batalha</div>
+                      <div class="channel__status">Call of Duty: Modern Warfare III</div>
+                    </div>
+                    <div class="channel__more-btn">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <div class="channel__row">
+                    <div class="channel__tag">
+                      <span class="tag__name">Português</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="channel">
+              <div class="channel__screen">
+                <img src="images/screen4.jpg" class="channel__screen-shot" />
+                <span class="channel__screen-status">AO VIVO</span>
+                <span class="channel__screen-number">Viewers 81,912</span>
+              </div>
+
+              <div class="channel__info">
+                <div class="channel__column">
+                  <img src="images/user4.png" class="channel__user" />
+                </div>
+                <div class="channel__column">
+                  <div class="channel__row">
+                    <div class="channel__descript">
+                      <div class="channel__title">Casimito</div>
+                      <div class="channel__name">React Gols da Rodada Brasileirão</div>
+                      <div class="channel__status">Só na Conversa</div>
+                    </div>
+                    <div class="channel__more-btn">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                  <div class="channel__row">
+                    <div class="channel__tag">
+                      <span class="tag__name">Português</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <section class="screen__division-btn">
+          <div class="screen__division-half"></div>
+          <div class="division__button">Mostrar Mais<i class="fas fa-chevron-down"></i></div>
+          <div class="screen__division-half"></div>
+        </section>
+
+        <div class="screen__categories">
+          <div class="screen__channels__title">Categoria de Transmissão ao Vivo</div>
+          <ul class="screen__categories-list">
+            <li class="category">
+              <img
+                src="images/Games + Demos-285x380.jpg"
+                alt=""
+                class="category__picture"
+              />
+              <div class="category__title">
+                <span class="title-name">Games + Demos</span>
+              </div>
+              <span class="category__number">Viewers 63,490</span>
+              <span class="tag__name">Compilação</span>
+              <span class="tag__name">Puzzle</span>
+              <span class="tag__name">Ação</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="screen__division"></section>
+    </main>
+  </body>
+</html>
