@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="../Twitch-Clone/images/icon1.png" rel="icon"/>
+    <title>Twitch</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <a href="index.html" class="header__link">   
+        <i class="fab fa-twitch fa-2x"></i>
+        </a>
+        <a href="following.html" class="header__link">
+          <span class="header__title">Seguindo</span>
+        </a>
+        <a href="explore.html" class="header__link">
+          <span class="header__title">Procurar</span>
+        </a>
+      
+        <a href="esports.html" class="header__link">
+          <span class="header__title">Canais Favoritos</span>
+        </a>
+        <a href="music.html" class="header__link">
+          <span class="header__title">Recomendados</span>
+        </a>
+        <a href="" class="header__link">
+        <i class="fas fa-ellipsis-h"></i>
+      </a>
+      </div>
+
+      <div class="header__column">
+        <span class="header__search-bar">
+          <input type="text" class="header__search-text" placeholder="Buscar" />
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-inbox header__btn"></i>
+        <i class="far fa-bell header__btn"></i>
+        <i class="far fa-comment-alt header__btn"></i>
+        <span class="header__btn buy-btn">
+          <i class="far fa-gem"></i>
+          <span class="header__btn-title">Bits</span>
+        </span>
+        <i class="fas fa-user-circle fa-2x user__profile"></i>
+      </div>
+    </header>
+    <nav class="nav">
+      <i class="fas fa-arrow-right"></i>
+      <i class="fas fa-video"></i>
+      <img src="images/user1.png" class="nav__user" />
+      <img src="images/user2.png" class="nav__user" />
+      <img src="images/user3.png" class="nav__user" />
+      <img src="images/user4.png" class="nav__user" />
+      <i class="fas fa-user-friends"></i>
+    </nav>
+    <main class="main">
+
+      <div class="screen">
+        <div class="screen__title">Explorar</div>
+        <div class="screen__nav">
+          <ul class="screen__nav-list">
+            <li class="screen__nav-title">Categoria</li>
+            <li class="screen__nav-title">Canal de Transmissão ao Vivo</li>
+          </ul>
+        </div>
+        <div class="explore__arrange-bar">
+            <div class="arrange-bar__filter">
+                <span class="filter__title">Filtro:</span>
+                <div class="filter__search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="search-tag" placeholder="Busca por Nome">
+                </div>
+            </div>
+            <div class="arrange-bar__etc"></div>
+            <div class="arrange-bar__arrange">
+                <span class="arrange__title">Ordenar por:</span>
+                <div class="arrange_dropdown-btn">
+                    <span class="btn-title">Recomendado</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+      <div class="screen__categories">
+        <ul class="screen__categories-list">
+          <li class="category">
+            <img src="images/Just Chatting-188x250.jpg"alt=""class="category__picture"/>
+            <div class="category__title">
+              <span class="title-name">Just Chatting</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">Viewers 131,512</span>
+            <span class="tag__name">Vida Real</span>
+          </li>
+          <li class="category">
+            <img src="images/Ghost of Tsushima-188x250.jpg" alt=""class="category__picture"/>
+            <div class="category__title">
+              <span class="title-name">Ghost of Tsushima</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">Viewers 13,981</span>
+            <span class="tag__name">Ação</span>
+            <span class="tag__name">Samurai</span>
+          </li>
+          <li class="category">
+            <img src="images/Talk Shows & Podcasts-188x250.jpg"alt=""class="category__picture"/>
+            <div class="category__title">
+              <span class="title-name">Talk Show e Podcast</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">Viewers 38,650</span>
+            <span class="tag__name">Vida Real</span>
+          </li>
+          <li class="category">
+            <img src="images/Dark Souls II_ Scholar of the First Sin-188x250.jpg"alt="" class="category__picture"/>
+            <div class="category__title">
+              <span class="title-name">Dark Souls II</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">Viewers 76,324</span>
+            <span class="tag__name">RPG</span>
+          </li>
+          <li class="category">
+            <img src="images/Minecraft-188x250.jpg"alt=""class="category__picture"/>
+            <div class="category__title">
+              <span class="title-name">Cyberpunk 2077</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">Viewers 13,213</span>
+            <span class="tag__name">Ação</span>
+          </li>
+          <li class="category">
+            <img src="images/Overwatch-188x250.jpg"alt=""class="category__picture"/>
+            <div class="category__title">
+              <span class="title-name">Overwatch</span>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <span class="category__number">Viewers 17,659</span>
+            <span class="tag__name">FPS</span>
+            <span class="tag__name">Ação</span>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
