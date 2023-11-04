@@ -20,6 +20,14 @@ Este projeto é um clone básico da plataforma Twitch, criado com HTML e CSS. El
 
 - **music.html**: Página para explorar conteúdo relacionado a música.
 
+### Visualização Online
+
+Você pode visualizar o projeto [Spotify](https://m4den.github.io/Spotify/).
+
+### Projeto Funcionando
+
+
+
 ## Licença
 
 Este projeto é distribuído sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
