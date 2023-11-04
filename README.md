@@ -22,11 +22,11 @@ Este projeto é um clone básico da plataforma Twitch, criado com HTML e CSS. El
 
 ### Visualização Online
 
-Você pode visualizar o projeto [Spotify](https://m4den.github.io/Spotify/).
+Você pode visualizar o projeto [Twitch](m4den.github.io/Twitch/).
 
 ### Projeto Funcionando
 
-
+https://github.com/M4deN/Twitch/assets/43422425/37bdae9d-f150-491d-9250-d043cf9e2b92
 
 ## Licença
 
