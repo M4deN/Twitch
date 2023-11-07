@@ -48,7 +48,7 @@
   border: none;
 }
 .header__search-text::placeholder{
-    color:white;
+    color:rgb(206, 7, 7);
 }
 
 .header__search-bar i {
@@ -64,15 +64,10 @@
   display: flex;
 }
 
-
-
-
-
 .header__column .header__btn {
   padding: 0px 10px;
   font-size: 18px;
 }
-
 
 .bell-box{
   position: relative;
@@ -85,17 +80,9 @@
   background-color: red;
   font-size: 10px;
   align-items: center;
-  
   top: -5px;
   right: 0;
 }
-
-
-
-
-
-
-
 
 .header__column .buy-btn {
   display: flex;
