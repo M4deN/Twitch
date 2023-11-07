@@ -20,14 +20,11 @@
 
 .livegame__column-big{
     width: 49%;
-    
     margin-right: 10px;
 }
 
 .livegame__column-small{
-   
     width: 49%;
-   
 }
 
 .livegame__column-big .livegame__feed{
@@ -42,13 +39,11 @@
 
 .livegame__feed img{
     width: 100%;
-    
 }
 
 .livegame__feed-onair, .livegame__feed-number{
     position: absolute;
     color: white;
-   
 }
 
 .livegame__feed-onair{
@@ -81,7 +76,6 @@
 }
 
 /*channel description*/
-
 .channel__name-group{
     display: flex;
     align-items: center;
@@ -90,16 +84,13 @@
     width: 15px;
     height: 15px;
     border-radius: 15px;
-    
 }
-
 
 .livegame__channel-bar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 
 .livegame__channel-bar .livegame__channel-name{
@@ -107,18 +98,13 @@
     color:#A970FF;
     padding-top: 10px;
     padding-bottom: 8px;
-    font-weight: 600;
-   
-    
-    
+    font-weight: 600;    
 }
 
 .livegame__channel-bar i{
     color: #b7b7b7;
     margin-right: 10px;
     font-size: 12px;
-    
-    
 }
 
 .livegame__channel-title{
