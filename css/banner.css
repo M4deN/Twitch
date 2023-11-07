@@ -11,6 +11,16 @@
   position: relative;
 }
 
+.screen__status,
+.screen__status-tag,
+.follow-btn__title {
+  color: #ffffff;
+}
+
+.far.fa-heart {
+  color: #ffffff; 
+}
+
 .esports__banners-list {
   width: 100%;
   display: flex;
