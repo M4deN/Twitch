@@ -6,12 +6,11 @@
 
 .screen__categories .screen__channels__title{
     font-size: 20px;
-  padding-bottom: 20px;
-}
+    padding-bottom: 20px;
+}   
+
 .screen__categories-list{
-    
     display: flex;
-  
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
