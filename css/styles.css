@@ -41,8 +41,6 @@ img{
     align-items: center;
 }
 
-
-
 .division__button{
     transform: translateY(-8px);
     width: 10%;
@@ -64,3 +62,4 @@ img{
      background-color: #3e3e3e;
      border-radius: 7px;
  }
+ 
